@@ -12,7 +12,7 @@ response = client.models.generate_content(
     model="gemini-2.5-flash",
     contents="Give me 10 creative names for an AI app that helps computer science students learn AWS, Linux, and Python.",
     config=types.GenerateContentConfig(
-        temperature=0.1
+        temperature=0.5
     )
     
 )
