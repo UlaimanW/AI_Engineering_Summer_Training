@@ -42,4 +42,3 @@ while True:
     assistant_reply = response.choices[0].message.content
     print("AI:", assistant_reply)
     print()
-
